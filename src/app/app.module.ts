@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 // Importações do SDK Modular do Firebase
 import { initializeApp, provideFirebaseApp } from '@angular/fire/app'; // Função para inicializar o app Firebase
 import { getFirestore, provideFirestore } from '@angular/fire/firestore'; // Funções para o Firestore
+import { provideAuth, getAuth } from '@angular/fire/auth';
 
 import { environment } from '../environments/environment'; // Suas configurações do ambiente
 
@@ -23,6 +24,7 @@ import { environment } from '../environments/environment'; // Suas configuraçõ
     provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
     // Provisão do Firestore
     provideFirestore(() => getFirestore())
+    provideAuth(() => getAuth())
   ],
   bootstrap: [AppComponent],
 })
