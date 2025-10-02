@@ -23,7 +23,7 @@ import { environment } from '../environments/environment'; // Suas configuraçõ
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy },
     provideFirebaseApp(() => initializeApp(environment.firebaseConfig)),
     // Provisão do Firestore
-    provideFirestore(() => getFirestore())
+    provideFirestore(() => getFirestore()),
     provideAuth(() => getAuth())
   ],
   bootstrap: [AppComponent],

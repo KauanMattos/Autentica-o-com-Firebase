@@ -5,13 +5,13 @@
 export const environment = {
   production: false,
   firebaseConfig : {
-  apiKey: "AIzaSyCEoX4-3hc5LefJ_LPlA6Q3Z8Jtex_6m3k",
-  authDomain: "ionicfirebasenovo.firebaseapp.com",
-  projectId: "ionicfirebasenovo",
-  storageBucket: "ionicfirebasenovo.firebasestorage.app",
-  messagingSenderId: "1018227321208",
-  appId: "1:1018227321208:web:fa0155fd04fd636b2a408d",
-  measurementId: "G-ERHZ6MWG3T"
+  apiKey: "AIzaSyACUtpSxiVwz93cjUU49yMoaPGVmTex-FA",
+  authDomain: "ionicfirebase-41b3c.firebaseapp.com",
+  projectId: "ionicfirebase-41b3c",
+  storageBucket: "ionicfirebase-41b3c.firebasestorage.app",
+  messagingSenderId: "1068956795937",
+  appId: "1:1068956795937:web:05c2e297daa08d0dc60f60",
+  measurementId: "G-G2BVREF4JY"
 }
 };
 
