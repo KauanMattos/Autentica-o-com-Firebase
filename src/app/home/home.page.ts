@@ -30,6 +30,10 @@ export class HomePage {
     this.router.navigateByUrl('/item-detail');
   }
 
+  addItem2(){
+    this.router.navigateByUrl('/item-detail');
+  }
+
   editItem(item: Item) {
     this.router.navigateByUrl(`/item-detail/${item.id}`);
   }

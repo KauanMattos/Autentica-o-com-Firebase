@@ -19,7 +19,11 @@ import { Observable } from 'rxjs';
 export interface Item {
   id?: string;
   name: string;
+  species?: string;
   description: string;
+  breed?: string;
+  age?: string;
+  notes?: string;
   createdAt?: number;
 }
 
@@ -61,7 +65,7 @@ export class DataService {
     // Cria uma referência para o documento específico
     const itemDocRef = doc(this.firestore, `items/${item.id}`);
     // Atualiza o documento
-    return updateDoc(itemDocRef, { name: item.name, description: item.description });
+    return updateDoc(itemDocRef, { name: item.name, description: item.description, species: item.species, breed: item.breed,  });
   }
 
   // Deleta um item pelo ID

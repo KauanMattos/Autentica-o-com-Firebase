@@ -17,7 +17,11 @@ export class ItemDetailPage implements OnInit {
   // Será usada para vincular os dados do formulário (nome e descrição).
   item: Item = {
     name: '',
-    description: ''
+    species: '',
+    description: '',
+    breed: '',
+    age: '',
+    notes: ''
   };
   // Declara 'itemId' que pode ser uma string ou null. Armazenará o ID do item se estivermos editando.
   itemId: string | null = null;

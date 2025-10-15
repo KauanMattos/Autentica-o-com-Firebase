@@ -25,3 +25,21 @@
 #container a {
   text-decoration: none;
 }
+
+ion-button{
+  margin-left: 10px;
+  background-color: rgb(16, 16, 227);
+  color: white;
+  border-radius: 10px;
+  transition: 0.5s ease-in;
+  margin: 0 10px;
+  width: 200px;
+  height: 40px;
+}
+
+ion-button:hover{
+  color: rgb(49, 49, 255);
+  background-color: #ffffff;
+  transform: scale(1.1) translateY(-3px); /* aumenta e sobe um pouco */
+  font-weight: 700;
+}
